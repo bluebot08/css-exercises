@@ -46,6 +46,11 @@ ul {
   display: flex;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 a:link {
   text-decoration: none;
 }
