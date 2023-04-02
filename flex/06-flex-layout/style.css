@@ -39,6 +39,7 @@ ul {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .left-links,
@@ -49,6 +50,7 @@ ul {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 a:link {
