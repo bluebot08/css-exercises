@@ -40,3 +40,14 @@ body {
   display: flex;
   align-items: center;
 }
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
