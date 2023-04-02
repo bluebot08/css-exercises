@@ -29,8 +29,6 @@ body {
   border-radius: 4px;
 }
 
-/* Work starts here */
-
 body {
   display: flex;
   flex-direction: column;
@@ -39,11 +37,47 @@ body {
 .header {
   display: flex;
   align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.body {
+  flex: 1;
+  display: flex;
 }
 
 .sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.container {
+  padding: 32px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
 }
 
 .footer {
