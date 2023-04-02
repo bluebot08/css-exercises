@@ -28,6 +28,10 @@ input {
 
 /* Start of work */
 
+body {
+  text-align: center;
+}
+
 ul {
   list-style: none;
 }
